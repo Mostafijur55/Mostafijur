@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: rgb(237, 245, 245);
+}
+
+header{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.fb{
+    margin-top: 130px;
+    margin-left: 50px;
+}
+.fb-img img{
+    width: 350px;
+    margin-left: 0;
+    padding-left: 0;
+    
+}
+
+.fb h1{
+    font-size:27px ;
+    margin-left: 30px;
+    font-weight: 250;
+    width: 500px;
+}
+
+.login{
+    padding: 70px;
+    margin-top: 70px;
+}
+.logn{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 2px #ccc ;
+    border: 1px solid #ccc;
+    gap: 15px;
+    padding: 15px;
+    width: 400px;
+    background-color: white;
+    border-radius: 10px ;
+    
+}
+
+.logn input{
+    padding:15px 20px ;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+   
+
+}
+.lo input{
+    width: 367.7px;
+    border: transparent 1px solid;
+    background-color: #0866ff;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input:focus{
+    outline-color: #0866ff;
+}
+
+input::placeholder{
+    font-size: 17px;
+    color: #cec2c2;
+}
+
+
+
+
+.link {
+    text-align: center;
+    
+}
+
+.link a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #0866ff;
+    font-weight: 400;
+    /* margin-bottom: 20px; */
+}
+
+.link a:hover{
+    text-decoration: underline;
+}
+
+button{
+    width: 200px;
+    place-self: center;
+    color:white ;
+    padding: 10px 1px;
+    border: transparent 1px solid;
+    color: white;
+    background-color: #42b72a;
+    padding: 15px 1px;
+    font-size: 17px;
+    border-radius: 6px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
+}
+
+.bottom{
+    display: flex;
+    gap: 4px;
+    margin-top: 20px;
+    place-self: center;
+}
+.bottom a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.bottom a:hover{
+    text-decoration: underline;
+}
+
+.bottom p{
+    font-size: 14px;
+}
+
+
+@media screen and (max-width:420px) {
+    header{
+        max-width: 420px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+    .fb-img{
+        text-align: center;
+    }
+
+    h1{
+       text-align: center;
+    }
+
+    .logn{
+        margin-left: 20px;
+    }
+
+    
+}
+
+@media screen and (max-width:520px) {
+    header{
+        max-width: 520px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        padding-left: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+    .fb-img{
+        margin-left: -50px;
+    }
+
+    h1{
+        margin-left: -50px;
+        position: relative;
+        left: -50px;
+    }
+
+    
+}
+    
+
+@media screen and (max-width:900px) {
+    header{
+        max-width: 520px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        padding-left: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fb-img{
+        margin-left: -50px;
+    }
+
+    h1{
+        margin-left: -50px;
+        position: relative;
+        left: -50px;
+    }
+
+
+    .logn{
+        place-self: center;
+        
+    }
+
+    
+
+    .login{
+        padding: 70px;
+        margin-left: 40px;
+        margin-top: -20px;
+    }
+
+
+
+}
+
+
+@media screen and (max-width:1200px) {
+    header{
+        
+        
+      
+        
+        justify-content: center;
+        align-items: center;
+        padding:120px;
+    }
+    .fb{
+    
+        margin-left: 80px;
+        margin-top: -90px;
+        
+    }
+    .fb-img img{
+        width: 280px;
+        margin-left: 75px;
+        
+    }
+    .fb h1{
+        font-size:22px ;
+        margin-left: 55px;
+        font-weight: 300;
+        width: 350px;
+    }
+
+    .logn{
+        place-self: center;
+        
+    }
+
+    
+
+    .login{
+        padding: 70px;
+        margin-left: 20px;
+        margin-top: -20px;
+    }
+
+
+
+}
+
+
+
+
